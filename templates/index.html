@@ -1,0 +1,204 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block index_block %}
+
+
+
+<section class="home-slider owl-carousel js-fullheight">
+<!-- <div class="slider-item js-fullheight">
+<div class="overlay"></div>
+<div class="container">
+<div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
+<div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+<p><a href="#" class="scroll">Hello! I'm</a></p>
+<h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ankur Raval</h1>
+</div>
+</div>
+</div>
+</div> -->
+<div class="slider-item js-fullheight">
+<div class="overlay"></div>
+<div class="container">
+<div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
+<div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+<p><a href="#" class="scroll">I'm Ankur Raval</a></p>
+<h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">A Web Developer</h1>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="ftco-section about-section">
+<div class="container">
+<div class="row d-flex" data-scrollax-parent="true">
+<div class="col-md-4 author-img" style="background-image: url(static/images/IMG_0744.JPG);" data-scrollax=" properties: { translateY: '-70%'}"></div>
+<div class="col-md-2"></div>
+<div class="col-md-6 wrap ftco-animate">
+<div class="about-desc">
+<h1 class="bold-text">About</h1>
+<div class="p-5">
+<h2 class="mb-5">Hi! I'm Ankur Raval</h2>
+<p>A freelance Web Developer.</p>
+<!-- <p><a href="#">Checkout my resume</a></p> -->
+<ul class="ftco-footer-social list-unstyled mt-4">
+<li><a href="https://twitter.com/ARaval1226"><span class="icon-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/ankur.raval.92317"><span class="icon-facebook"></span></a></li>
+<li><a href="https://www.linkedin.com/in/ankur-raval-9655b6185/"><span class="icon-linkedin"></span></a></li>
+<li class="ftco-animate"><a href="https://wa.me/919974795477/?text=Hello, I would like to discuss about business..." target="_blank"><span class="icon-whatsapp"></span></a></li>
+
+</ul>
+ <h5>Contact me here!</h5>
+<p>Email : <a href="#"><span class="__cf_email__">thepointofview.ar@gmail.com</span></a></p>
+<p>Phone : <a href="#">+91 9974795477</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="ftco-section">
+<div class="container">
+<div class="row justify-content-center mb-5 pb-5">
+<div class="col-md-7 text-center heading-section ftco-animate">
+<span>What I do</span>
+<h2>My services</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 d-flex align-self-stretch ftco-animate">
+<div class="media block-6 services p-3 py-4 d-block text-center">
+<div class="icon mb-3"><span class="icon-layers"></span></div>
+<div class="media-body">
+<h3 class="heading">Web Design</h3>
+<h6 class="heading">I create stunnig design for webiste to represent your business attractive.</h6>
+<!-- <h3 class="heading">Responsive Design</h3> -->
+</div>
+</div>
+</div>
+<div class="col-md-4 d-flex align-self-stretch ftco-animate">
+<div class="media block-6 services p-3 py-4 d-block text-center">
+<div class="icon mb-3"><span class="icon-code"></span></div>
+<div class="media-body">
+<h3 class="heading">Web Development</h3>
+<h6 class="heading">I develop website for Business and E-commerce & manage Database & Hosting</h6>
+</div>
+</div>
+</div>
+<div class="col-md-4 d-flex align-self-stretch ftco-animate">
+<div class="media block-6 services p-3 py-4 d-block text-center">
+<div class="icon mb-3"><span class="icon-mobile-phone"></span></div>
+<div class="media-body">
+<h3 class="heading">Mobile Application</h3>
+<h6 class="heading">I design & develop Android App iOS App</h6>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section class="ftco-section">
+<div class="container">
+<div class="row justify-content-center mb-5 pb-5">
+<div class="col-md-7 text-center heading-section ftco-animate">
+<span>Portfolio</span>
+<h2>Checkout a few of my works</h2>
+</div>
+</div>
+<div class="row no-gutters">
+<div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+<a href="{% static 'images/rootsdentalcaresurat.com (1).jpg' %}" class="image d-flex justify-content-center align-items-center" style="background-image: url('static/images/rootsdentalcaresurat.com (1).jpg'); background-position-y: top;" data-scrollax=" properties: { translateY: '-30%'}" target="_blank">
+<div class="icon d-flex text-center justify-content-center align-items-center">
+<span class="icon-search"></span>
+</div>
+</a>
+<div class="text">
+<h4 class="subheading">Website</h4>
+<h2 class="heading"><a style="cursor: pointer;">Roots Dental Care, Surat</a></h2>
+<p>A Dental Clinic Website with awesome graphics and easily accessible all information about the clinic.</p>
+<p><a href="http://rootsdentalcaresurat.com/" target="_blank">View Project</a></p>
+</div>
+</div>
+    <!-- -------------------Application Work----------------------- -->
+<!-- <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+<a href="portfolio-single.html" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('static/images/work-2.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+<div class="icon d-flex text-center justify-content-center align-items-center">
+<span class="icon-search"></span>
+</div>
+</a>
+<div class="text order-1">
+<h4 class="subheading">Application</h4>
+<h2 class="heading"><a href="portfoli-singleo.html">Even the all-powerful Pointing has no control</a></h2>
+<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+<p><a href="#">View Project</a></p>
+</div>
+</div> -->
+
+<!-- -------------------------Web Design work------------------------------ -->
+<!-- <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+<a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('static/images/work-3.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+<div class="icon d-flex text-center justify-content-center align-items-center">
+<span class="icon-search"></span>
+</div>
+</a>
+<div class="text">
+<h4 class="subheading">Web Design</h4>
+<h2 class="heading"><a href="portfolio-single.html">Even the all-powerful Pointing has no control</a></h2>
+<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.</p>
+<p><a href="#">View Project</a></p>
+</div>
+</div> -->
+
+</div>
+</div>
+</section>
+
+<!-- <section class="ftco-section ftco-counter" id="section-counter">
+<div class="container">
+<div class="row justify-content-center mb-5 pb-5">
+<div class="col-md-7 text-center heading-section ftco-animate">
+<span>Portfolio</span>
+<h2>I love to share my achievements</h2>
+</div>
+</div>
+<div class="row d-flex justify-content-start">
+<div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+<div class="block-18">
+<div class="text">
+<span class="ftco-label">Clients</span>
+<strong class="number" data-number="420">0</strong>
+</div>
+</div>
+</div>
+</div>
+<div class="row d-flex justify-content-center">
+<div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+<div class="block-18">
+<div class="text">
+<span class="ftco-label">Project done</span>
+<strong class="number" data-number="890">0</strong>
+</div>
+</div>
+</div>
+</div>
+<div class="row d-flex justify-content-end">
+<div class="col-md-5 counter-wrap ftco-animate">
+<div class="block-18">
+<div class="text">
+<span class="ftco-label">Cups of coffee</span>
+<strong class="number" data-number="1000">0</strong>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section> -->
+
+
+{% endblock index_block %}
